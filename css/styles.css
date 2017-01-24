@@ -44,3 +44,23 @@
   top: 20px;
   left:200px;
 }
+
+/*MEDIA QUERY*/
+
+@media screen and (min-width:375px) {
+  .col-md-4 {
+    background-color: purple;
+  }
+  .col-sm-9 {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .col-md-4 {
+    background-color: lightsalmon;
+  }
+  .col-sm-9 {
+    background-color: black;
+  }
+}
